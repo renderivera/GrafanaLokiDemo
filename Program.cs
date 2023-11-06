@@ -11,7 +11,7 @@ builder.Host.UseSerilog((hostContext, services, configuration) =>
         .Enrich.WithProperty("Application", hostContext.HostingEnvironment.ApplicationName)
         .Enrich.WithProperty("Environment", hostContext.HostingEnvironment.EnvironmentName)
         .WriteTo.Console(new RenderedCompactJsonFormatter())
-        .WriteTo.GrafanaLoki(hostContext.Configuration["loki"]);
+        .WriteTo.GrafanaLoki(hostContext.Configuration["loki"] ?? "");
 
 });
 
