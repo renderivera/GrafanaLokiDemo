@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jIfrASSW5e72RHx0hO2J9MUAZ5TpYtacQhO/dJo4bKw=",
+  "Source": "GrafanaLokiDemo",
+  "BasePath": "_content/GrafanaLokiDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
